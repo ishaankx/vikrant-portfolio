@@ -30,7 +30,7 @@ export default function Experience() {
                   <h3 style={{ fontSize: "clamp(1.1rem, 2.5vw, 1.5rem)", fontWeight: 400, fontFamily: "'Noto Serif', serif", color: "#2C2520" }}>Digital Marketing Executive</h3>
                   <p style={{ fontSize: "clamp(0.9rem, 1.5vw, 1rem)", color: "#8C7051", fontFamily: "'Plus Jakarta Sans', sans-serif", marginTop: "4px", fontWeight: 500 }}>KR Network Cloud Technologies Pvt. Ltd.</p>
                 </div>
-                <span style={{ padding: "6px 16px", background: "#EDE8E0", borderRadius: "6px", fontSize: "11px", textTransform: "uppercase", letterSpacing: "0.1em", border: "1px solid rgba(140,112,81,0.1)", fontFamily: "'Plus Jakarta Sans', sans-serif", color: "#6B5E54", whiteSpace: "nowrap" }}>Jan 2022 — Present</span>
+                <span style={{ padding: "6px 16px", background: "#EDE8E0", borderRadius: "6px", fontSize: "11px", textTransform: "uppercase", letterSpacing: "0.1em", border: "1px solid rgba(140,112,81,0.1)", fontFamily: "'Plus Jakarta Sans', sans-serif", color: "#6B5E54", whiteSpace: "nowrap" }}>Jan 2024 — Present</span>
               </div>
 
               <p style={{ color: "#6B5E54", lineHeight: 1.8, fontStyle: "italic", marginTop: "16px", fontSize: "15px", fontFamily: "'Noto Serif', serif", fontWeight: 300 }}>
