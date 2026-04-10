@@ -79,8 +79,8 @@ export default function About() {
       <style jsx>{`
         @media (min-width: 1024px) { .about-grid { grid-template-columns: 1fr 1fr !important; gap: 80px !important; } }
         @media (max-width: 767px) {
-          .label-seo { top: auto !important; right: 24px !important; bottom: 140px !important; }
-          .label-lead { bottom: 80px !important; left: 24px !important; }
+          .label-lead { bottom: 140px !important; left: 24px !important; }
+          .label-seo { top: auto !important; right: 24px !important; bottom: 70px !important; }
         }
       `}</style>
     </section>
