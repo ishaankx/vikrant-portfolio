@@ -37,10 +37,10 @@ export default function About() {
                 <Image src="/images/vikrant-profile.png" alt="Vikrant Sharma" fill sizes="(max-width: 1024px) 100vw, 500px" style={{ objectFit: "cover", objectPosition: "center 20%", filter: "grayscale(100%)", transition: "filter 0.7s" }}
                   onMouseEnter={(e) => (e.currentTarget.style.filter = "grayscale(0%)")} onMouseLeave={(e) => (e.currentTarget.style.filter = "grayscale(100%)")} />
                 <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, #FAF7F2, transparent, transparent)" }} />
-                <div style={{ position: "absolute", top: "40px", right: "40px", padding: "8px 16px", background: "rgba(140,112,81,0.1)", backdropFilter: "blur(12px)", borderRadius: "9999px", border: "1px solid rgba(140,112,81,0.2)", color: "#8C7051", fontSize: "12px", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.05em", fontFamily: "'Plus Jakarta Sans', sans-serif", animation: "float 4s ease-in-out infinite" }}>
+                <div className="float-label label-seo" style={{ position: "absolute", top: "40px", right: "40px", padding: "8px 16px", background: "rgba(140,112,81,0.1)", backdropFilter: "blur(12px)", borderRadius: "9999px", border: "1px solid rgba(140,112,81,0.2)", color: "#8C7051", fontSize: "12px", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.05em", fontFamily: "'Plus Jakarta Sans', sans-serif", animation: "float 4s ease-in-out infinite" }}>
                   SEO Strategy
                 </div>
-                <div style={{ position: "absolute", bottom: "80px", left: "40px", padding: "8px 16px", background: "rgba(140,112,81,0.1)", backdropFilter: "blur(12px)", borderRadius: "9999px", border: "1px solid rgba(140,112,81,0.2)", color: "#8C7051", fontSize: "12px", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.05em", fontFamily: "'Plus Jakarta Sans', sans-serif", animation: "float-delayed 5s ease-in-out infinite" }}>
+                <div className="float-label label-lead" style={{ position: "absolute", bottom: "80px", left: "40px", padding: "8px 16px", background: "rgba(140,112,81,0.1)", backdropFilter: "blur(12px)", borderRadius: "9999px", border: "1px solid rgba(140,112,81,0.2)", color: "#8C7051", fontSize: "12px", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.05em", fontFamily: "'Plus Jakarta Sans', sans-serif", animation: "float-delayed 5s ease-in-out infinite" }}>
                   Lead Gen
                 </div>
               </div>
@@ -78,6 +78,10 @@ export default function About() {
       </div>
       <style jsx>{`
         @media (min-width: 1024px) { .about-grid { grid-template-columns: 1fr 1fr !important; gap: 80px !important; } }
+        @media (max-width: 767px) {
+          .label-seo { top: auto !important; right: 24px !important; bottom: 140px !important; }
+          .label-lead { bottom: 80px !important; left: 24px !important; }
+        }
       `}</style>
     </section>
   );
