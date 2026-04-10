@@ -41,6 +41,15 @@ const caseStudies = [
     image: "/images/case-study/clicks.jpeg",
     period: "Dec 2024 → Mar 2026",
   },
+  {
+    metric: "Cost Per Acquisition",
+    before: "₹1,800",
+    after: "₹342",
+    delta: "▼ 81%",
+    description: "Slashed PPC acquisition costs by over 5x through tighter audience targeting, ad-copy A/B testing, and ruthless keyword pruning — turning a leaky funnel into a profit engine.",
+    image: "/images/case-study/ppc-campaign.jpeg",
+    period: "Jul 2024 → Apr 2026",
+  },
 ];
 
 export default function CaseStudy() {
